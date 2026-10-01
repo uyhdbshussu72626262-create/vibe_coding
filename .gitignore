@@ -1,0 +1,32 @@
+# 依赖与构建产物
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+
+# 打包产物与本地运行目录
+*.zip
+*.exe
+*.msi
+*.dmg
+*.AppImage
+/run_app/
+
+# 编辑器与系统文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# 本地配置与日志
+.env
+.env.*
+*.local
+*.log
+npm-debug.log*
+
+# Tauri 本地开发数据（不应该进仓库）
+*.db
+*.db-shm
+*.db-wal

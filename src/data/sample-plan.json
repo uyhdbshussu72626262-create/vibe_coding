@@ -1,0 +1,2898 @@
+{
+  "version": 1,
+  "meta": {
+    "title": "国庆 · 中秋 12 天任务规划",
+    "subtitle": "2026.09.24 – 10.05 ｜ 按调整后的单次时长安排 ｜ 四条主线：计算机应用技术 · 算法 · Rust · 专转本",
+    "importedFrom": "holiday-plan/src/plan.ts"
+  },
+  "tasks": [
+    {
+      "id": "sample_d1_1",
+      "title": "Knowlira · 文件服务学习与选型（不搭真实服务）",
+      "date": "2026-09-24",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "学习文件服务的组成部分：上传、存储、元数据、下载、权限与安全，先形成方案而不是直接搭真实服务",
+      "icon": "layers",
+      "subtasks": [
+        {
+          "id": "sample_d1_1_sub_1",
+          "title": "整理 3 套可选方案：本地磁盘、对象存储、托管文件服务，写清适用场景、成本与限制",
+          "done": false
+        },
+        {
+          "id": "sample_d1_1_sub_2",
+          "title": "与 AI 讨论后列出 Knowlira 接入点：输入存储 → 转换任务 → 结果存储 / 回传",
+          "done": false
+        },
+        {
+          "id": "sample_d1_1_sub_3",
+          "title": "建立 docs/file-service-plan.md 记录方案、风险和替代选择",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d1_2",
+      "title": "计算机基础：信息技术概述与数制",
+      "date": "2026-09-24",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "教材第 1 章通读（信息技术、微电子、计算机发展）",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d1_2_sub_1",
+          "title": "二 / 八 / 十 / 十六进制互转各练 10 题，进制转换用“除基取余、乘基取整”手算一遍",
+          "done": false
+        },
+        {
+          "id": "sample_d1_2_sub_2",
+          "title": "ASCII、汉字国标码 / 机内码转换规则做一页笔记",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d1_3",
+      "title": "英语：1 长文 + 2 精读 + 翻译 1 篇",
+      "date": "2026-09-24",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "high",
+      "notes": "长文 1 篇：限时 15 分钟，练略读定位与主旨题",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d1_3_sub_1",
+          "title": "精读 2 篇：逐句拆长难句，抄 10 个高频词进生词本",
+          "done": false
+        },
+        {
+          "id": "sample_d1_3_sub_2",
+          "title": "翻译 1 篇：先自译 → 对照答案 → 标出 3 个语法失分点",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d1_4",
+      "title": "算法：链表概念 + C 语言实现（本次最多 2 题）",
+      "date": "2026-09-24",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_algo",
+      "priority": "high",
+      "notes": "吃透单链表结构：头指针、头结点/哨兵节点、尾插与头插的差异",
+      "icon": "code-xml",
+      "subtasks": [
+        {
+          "id": "sample_d1_4_sub_1",
+          "title": "用 C 实现 create / insertHead / insertTail / delete / find / print",
+          "done": false
+        },
+        {
+          "id": "sample_d1_4_sub_2",
+          "title": "本次练习控制在 2 题内：反转单链表 + 1 道边界测试题，写不出先用 AI 拆解思路再自己复现",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d1_5",
+      "title": "Rust：环境搭建 + 变量与可变性",
+      "date": "2026-09-24",
+      "startTime": "15:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_rust",
+      "priority": "none",
+      "notes": "安装 rustup + cargo，cargo new hello_rust 跑通编译运行",
+      "icon": "settings",
+      "subtasks": [
+        {
+          "id": "sample_d1_5_sub_1",
+          "title": "变量绑定与可变性（let / mut）、变量遮蔽（shadowing）、常量 const 与 static 的区别",
+          "done": false
+        },
+        {
+          "id": "sample_d1_5_sub_2",
+          "title": "完成官方书第 3.1 节全部示例，自己改写 3 个",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d1_6",
+      "title": "数学：函数与极限概念",
+      "date": "2026-09-24",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "复习函数定义域、值域与基本初等函数图像（含反三角函数）",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d1_6_sub_1",
+          "title": "极限的直观定义 + 极限四则运算法则，理解“左右极限存在且相等”",
+          "done": false
+        },
+        {
+          "id": "sample_d1_6_sub_2",
+          "title": "做 15 道基础极限题，把不会的先标记不硬磕",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d1_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-09-24",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d1_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d1_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d1_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-09-24",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "回顾今天完成度：哪些任务完成、哪些没完成、原因是什么",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d1_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d1_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d2_1",
+      "title": "英语听力 2 篇（补 9.24 未听）",
+      "date": "2026-09-25",
+      "startTime": "20:00",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "high",
+      "notes": "第 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，最后朗读原文",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d2_1_sub_1",
+          "title": "第 2 篇：同流程完成，重点标注连读、弱读与听不出的词",
+          "done": false
+        },
+        {
+          "id": "sample_d2_1_sub_2",
+          "title": "两篇的发音问题各记 2 条；白天不安排其他学习任务",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d2_2",
+      "title": "英语阅读 + 翻译训练",
+      "date": "2026-09-25",
+      "startTime": "21:10",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文 1 篇：限时 15 分钟，练略读定位与主旨题",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d2_2_sub_1",
+          "title": "精读 1 篇：逐句拆长难句，抄 10 个高频词进生词本",
+          "done": false
+        },
+        {
+          "id": "sample_d2_2_sub_2",
+          "title": "翻译 1 篇：先自译 → 对照答案 → 标出 3 个语法失分点",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d2_3",
+      "title": "数学：极限相关专转本题目",
+      "date": "2026-09-25",
+      "startTime": "22:50",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "high",
+      "notes": "复习极限概念、四则运算法则与两个重要极限",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d2_3_sub_1",
+          "title": "做专转本极限专项题，每题写清使用的定理或变形方法",
+          "done": false
+        },
+        {
+          "id": "sample_d2_3_sub_2",
+          "title": "不会的题先标记，下次集中解决，不硬磕",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d2_4",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-09-25",
+      "startTime": "01:30",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "中秋夜：只登记今天英语与数学的完成度，不安排其他任务",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d2_4_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d2_4_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d3_1",
+      "title": "文件服务学习（第 2 次，不搭真实服务）",
+      "date": "2026-09-26",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "继续学习文件服务：接口设计、目录/对象命名、分片上传、断点续传与校验",
+      "icon": "layers",
+      "subtasks": [
+        {
+          "id": "sample_d3_1_sub_1",
+          "title": "梳理 Knowlira 当前文件流程与文件服务方案的差距",
+          "done": false
+        },
+        {
+          "id": "sample_d3_1_sub_2",
+          "title": "形成可实践清单：先做最小 demo，不追求真实生产服务",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d3_2",
+      "title": "计算机基础：操作系统基础",
+      "date": "2026-09-26",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "进程与线程、CPU 调度、死锁四个必要条件",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d3_2_sub_1",
+          "title": "内存管理：分页 / 分段 / 虚拟内存与页面置换算法",
+          "done": false
+        },
+        {
+          "id": "sample_d3_2_sub_2",
+          "title": "文件系统与常用命令行为（用本机实测 5 条命令）",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d3_3",
+      "title": "英语：1 长文 + 2 精读 + 翻译 1 篇",
+      "date": "2026-09-26",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文限时训练，记录“定位超时”的题号与原因",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d3_3_sub_1",
+          "title": "精读 2 篇：专攻同位语从句与插入语",
+          "done": false
+        },
+        {
+          "id": "sample_d3_3_sub_2",
+          "title": "翻译 1 篇：汉译英，练“先搭主干再补修饰”",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d3_4",
+      "title": "算法：队列与循环队列（C 实现，本次最多 2 题）",
+      "date": "2026-09-26",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_algo",
+      "priority": "none",
+      "notes": "队列的 FIFO 特性、顺序队列“假溢出”问题与循环队列解决方案",
+      "icon": "code-xml",
+      "subtasks": [
+        {
+          "id": "sample_d3_4_sub_1",
+          "title": "C 实现循环队列：判空 (front==rear)、判满 ((rear+1)%cap==front)",
+          "done": false
+        },
+        {
+          "id": "sample_d3_4_sub_2",
+          "title": "本次做 2 题：循环队列 + 1 道队列应用题；卡住先用 AI 讨论思路再自己复现",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d3_5",
+      "title": "Rust：函数与控制流",
+      "date": "2026-09-26",
+      "startTime": "15:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_rust",
+      "priority": "none",
+      "notes": "函数定义、参数、返回值（表达式 vs 语句，注意无分号）",
+      "icon": "settings",
+      "subtasks": [
+        {
+          "id": "sample_d3_5_sub_1",
+          "title": "if 作为表达式、loop / while / for 与循环标签、break 带返回值",
+          "done": false
+        },
+        {
+          "id": "sample_d3_5_sub_2",
+          "title": "写 3 个小练习：阶乘、斐波那契、猜数字（用 match 处理解析结果）",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d3_6",
+      "title": "数学：连续性与间断点",
+      "date": "2026-09-26",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "连续的定义与三类间断点判断（可去 / 跳跃 / 无穷）",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d3_6_sub_1",
+          "title": "闭区间上连续函数的性质（最值、介值、零点定理）",
+          "done": false
+        },
+        {
+          "id": "sample_d3_6_sub_2",
+          "title": "做 15 题，重点练分段函数在分界点的连续性",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d3_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-09-26",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d3_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d3_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d3_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-09-26",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "回顾今天完成度：哪些任务完成、哪些没完成、原因是什么",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d3_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d3_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d4_1",
+      "title": "MySQL · SQL 优化实战",
+      "date": "2026-09-27",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "定位慢查询：慢查询日志、SHOW PROFILE、EXPLAIN",
+      "icon": "database",
+      "subtasks": [
+        {
+          "id": "sample_d4_1_sub_1",
+          "title": "读懂 EXPLAIN 关键列：type、key、key_len、rows、Extra（尤其 Using filesort / Using temporary）",
+          "done": false
+        },
+        {
+          "id": "sample_d4_1_sub_2",
+          "title": "用 Knowlira 真实库改写 3 条低效 SQL：子查询改 JOIN、去掉 SELECT *、避免函数致索引失效、深分页优化",
+          "done": false
+        },
+        {
+          "id": "sample_d4_1_sub_3",
+          "title": "优化前后用同样的数据量做耗时对比，记录数字",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d4_2",
+      "title": "计算机基础：计算机网络基础",
+      "date": "2026-09-27",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "OSI 七层与 TCP/IP 四层模型对照，各层典型协议",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d4_2_sub_1",
+          "title": "TCP 三次握手 / 四次挥手、UDP 差异，HTTP 常见状态码",
+          "done": false
+        },
+        {
+          "id": "sample_d4_2_sub_2",
+          "title": "IP 地址与子网掩码计算练习 10 题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d4_3",
+      "title": "英语：1 长文 + 2 精读 + 翻译 1 篇",
+      "date": "2026-09-27",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文限时 14 分钟（逐步压缩时间）",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d4_3_sub_1",
+          "title": "精读 2 篇：专攻定语从句与非谓语动词做定语",
+          "done": false
+        },
+        {
+          "id": "sample_d4_3_sub_2",
+          "title": "翻译 1 篇：英译汉，注意词性转换",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d4_4",
+      "title": "算法：队列 Java 实现 + 2 道 LeetCode 队列题",
+      "date": "2026-09-27",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_algo",
+      "priority": "none",
+      "notes": "Java 用 ArrayDeque 实现队列与双端队列，理解为什么不用 Stack 类",
+      "icon": "code-xml",
+      "subtasks": [
+        {
+          "id": "sample_d4_4_sub_1",
+          "title": "本次只做 2 题：232 用栈实现队列、20 有效的括号；卡住先和 AI 讨论思路",
+          "done": false
+        },
+        {
+          "id": "sample_d4_4_sub_2",
+          "title": "每题写“思路 + 复杂度 + 踩坑”三行记录",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d4_5",
+      "title": "Spring 源码 · 环境与容器启动主流程（第 1/4 次，2 小时）",
+      "date": "2026-09-27",
+      "startTime": "15:40",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "拉取 spring-framework 源码，配好 Gradle 与可调试的测试工程",
+      "icon": "braces",
+      "subtasks": [
+        {
+          "id": "sample_d4_5_sub_1",
+          "title": "从 AnnotationConfigApplicationContext 进入 refresh()，逐个断点走 12 个步骤",
+          "done": false
+        },
+        {
+          "id": "sample_d4_5_sub_2",
+          "title": "画容器启动主链路图：注册 BeanDefinition → 实例化 → 初始化 → 完成",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d4_6",
+      "title": "数学：导数定义与求导法则",
+      "date": "2026-09-27",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "导数定义（极限式）、几何意义（切线斜率）与可导与连续的关系",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d4_6_sub_1",
+          "title": "求导法则：四则运算、复合函数链式法则",
+          "done": false
+        },
+        {
+          "id": "sample_d4_6_sub_2",
+          "title": "做 20 题（含分段函数求导）",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d4_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-09-27",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d4_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d4_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d4_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-09-27",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "回顾今天完成度：哪些任务完成、哪些没完成、原因是什么",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d4_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d4_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d5_1",
+      "title": "MySQL · 索引原理（B+ 树与命中规则）",
+      "date": "2026-09-28",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "B+ 树结构、聚簇索引与二级索引、回表与覆盖索引",
+      "icon": "database",
+      "subtasks": [
+        {
+          "id": "sample_d5_1_sub_1",
+          "title": "最左前缀原则、索引下推、联合索引字段顺序怎么定",
+          "done": false
+        },
+        {
+          "id": "sample_d5_1_sub_2",
+          "title": "用 EXPLAIN 验证 5 种命中场景：全值匹配、范围、排序、覆盖索引、索引失效",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d5_2",
+      "title": "计算机基础：数据库基础",
+      "date": "2026-09-28",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "关系模型、ER 图、主键 / 外键 / 索引、三种范式与反范式",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d5_2_sub_1",
+          "title": "SQL 分类（DDL / DML / DQL / DCL）与常见联接类型",
+          "done": false
+        },
+        {
+          "id": "sample_d5_2_sub_2",
+          "title": "跟 D4-D6 的 MySQL 实践对照理解，做课后题 20 道",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d5_3",
+      "title": "英语：1 长文 + 2 精读 + 翻译 1 篇",
+      "date": "2026-09-28",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文限时训练，练主旨题与态度题",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d5_3_sub_1",
+          "title": "精读 2 篇：整理高频熟词僻义 10 个",
+          "done": false
+        },
+        {
+          "id": "sample_d5_3_sub_2",
+          "title": "翻译 1 篇：汉译英，注意数字与单位表达",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d5_4",
+      "title": "Rust：所有权入门（栈 / 堆 / 移动 / 克隆）",
+      "date": "2026-09-28",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_rust",
+      "priority": "none",
+      "notes": "栈与堆的分配差异，String 与字符串字面量的内存布局",
+      "icon": "settings",
+      "subtasks": [
+        {
+          "id": "sample_d5_4_sub_1",
+          "title": "移动语义：为什么把变量传给函数后原变量不能再用",
+          "done": false
+        },
+        {
+          "id": "sample_d5_4_sub_2",
+          "title": "clone 与 Copy 的取舍，画出 3 个内存示意图",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d5_5",
+      "title": "Spring 源码 · IOC 与 Bean 生命周期（第 2/4 次，2 小时）",
+      "date": "2026-09-28",
+      "startTime": "15:40",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "BeanDefinition 的注册过程：扫描、解析、注册到 BeanFactory",
+      "icon": "braces",
+      "subtasks": [
+        {
+          "id": "sample_d5_5_sub_1",
+          "title": "getBean 主流程与三级缓存如何解决循环依赖（自己写个 A↔B 的例子打断点）",
+          "done": false
+        },
+        {
+          "id": "sample_d5_5_sub_2",
+          "title": "Bean 生命周期扩展点执行顺序：BeanPostProcessor、@PostConstruct、InitializingBean",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d5_6",
+      "title": "数学：复合函数与隐函数求导",
+      "date": "2026-09-28",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "链式法则多层嵌套练习 10 题",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d5_6_sub_1",
+          "title": "隐函数求导（方程两边同时对 x 求导）10 题",
+          "done": false
+        },
+        {
+          "id": "sample_d5_6_sub_2",
+          "title": "参数方程求导了解即可，记一条公式",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d5_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-09-28",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d5_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d5_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d5_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-09-28",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "回顾今天完成度：哪些任务完成、哪些没完成、原因是什么",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d5_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d5_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d6_1",
+      "title": "MySQL · 数据库设计原理（在 Knowlira 上实做）",
+      "date": "2026-09-29",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "三大范式与反范式取舍，什么时候故意冗余字段",
+      "icon": "database",
+      "subtasks": [
+        {
+          "id": "sample_d6_1_sub_1",
+          "title": "ER 建模：给 Knowlira 的用户 / 文件 / 任务 / 转换记录建表",
+          "done": false
+        },
+        {
+          "id": "sample_d6_1_sub_2",
+          "title": "字段类型选型与索引设计评审（时间戳类型、字符集、唯一约束）",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d6_2",
+      "title": "计算机基础：数字媒体基础",
+      "date": "2026-09-29",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "音频/图像/视频的常见格式、压缩方式与适用场景",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d6_2_sub_1",
+          "title": "颜色模型、分辨率与文件体积的换算关系",
+          "done": false
+        },
+        {
+          "id": "sample_d6_2_sub_2",
+          "title": "结合文件互转项目：为什么转码会掉质量（有损压缩的取舍）",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d6_3",
+      "title": "英语：1 长文 + 2 精读 + 翻译 1 篇",
+      "date": "2026-09-29",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文限时训练，复盘错题类型分布",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d6_3_sub_1",
+          "title": "精读 2 篇：把 5 个长难句改写成简单句",
+          "done": false
+        },
+        {
+          "id": "sample_d6_3_sub_2",
+          "title": "翻译 1 篇：英译汉，练句子顺序调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d6_4",
+      "title": "思政作业（9.30 前完成）",
+      "date": "2026-09-29",
+      "startTime": "14:00",
+      "durationMinutes": 120,
+      "categoryId": "cat_exam",
+      "priority": "high",
+      "notes": "确认作业要求与提交格式，列出需要阅读的材料",
+      "icon": "book-open",
+      "subtasks": [
+        {
+          "id": "sample_d6_4_sub_1",
+          "title": "完成正文撰写与引用整理，避免最后一天赶工",
+          "done": false
+        },
+        {
+          "id": "sample_d6_4_sub_2",
+          "title": "通读一遍检查错别字、格式与提交文件命名",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d6_5",
+      "title": "Spring 源码 · Bean 生命周期与循环依赖（第 3/4 次，2 小时）",
+      "date": "2026-09-29",
+      "startTime": "16:10",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "BeanDefinition 的注册过程：扫描、解析、注册到 BeanFactory",
+      "icon": "braces",
+      "subtasks": [
+        {
+          "id": "sample_d6_5_sub_1",
+          "title": "getBean 主流程与三级缓存如何解决循环依赖（自己写个 A↔B 的例子打断点）",
+          "done": false
+        },
+        {
+          "id": "sample_d6_5_sub_2",
+          "title": "Bean 生命周期扩展点执行顺序：BeanPostProcessor、@PostConstruct、InitializingBean",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d6_6",
+      "title": "数学：微分与中值定理",
+      "date": "2026-09-29",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "微分的定义与近似计算（Δy ≈ f′(x)Δx）",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d6_6_sub_1",
+          "title": "罗尔、拉格朗日、柯西中值定理的条件与结论",
+          "done": false
+        },
+        {
+          "id": "sample_d6_6_sub_2",
+          "title": "做 15 题证明 + 计算混合练习",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d6_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-09-29",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d6_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d6_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d6_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-09-29",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "确认 9.30 的离线材料、充电设备与纸质任务清单已准备好",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d6_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d6_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d7_1",
+      "title": "英语阅读 + 翻译（纸笔，离线）",
+      "date": "2026-09-30",
+      "startTime": "09:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文 1 篇 + 精读 1 篇，全部用打印材料完成",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d7_1_sub_1",
+          "title": "精读时把生词写在纸上，暂不查电子词典（只标猜测含义）",
+          "done": false
+        },
+        {
+          "id": "sample_d7_1_sub_2",
+          "title": "翻译 1 篇，先手写自译，再对照答案标出语法失分点",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d7_2",
+      "title": "计算机基础：教材回看 + 错题重做（离线）",
+      "date": "2026-09-30",
+      "startTime": "10:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "把 D1-D6 六章（信息、组成、操作系统、网络、数据库、多媒体）通读一遍",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d7_2_sub_1",
+          "title": "重做错题，把仍错的用红笔圈出来",
+          "done": false
+        },
+        {
+          "id": "sample_d7_2_sub_2",
+          "title": "整理“高频考点 30 条”清单",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d7_3",
+      "title": "纸笔手写：链表 + 队列（离线，本次最多 2 题）",
+      "date": "2026-09-30",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_algo",
+      "priority": "high",
+      "notes": "不看屏幕手写：单链表反转、队列判满判空",
+      "icon": "pen-line",
+      "subtasks": [
+        {
+          "id": "sample_d7_3_sub_1",
+          "title": "每段代码写出边界条件与可能出错的位置",
+          "done": false
+        },
+        {
+          "id": "sample_d7_3_sub_2",
+          "title": "把“可能编译不过的地方”标出来，晚上上机验证",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d7_4",
+      "title": "Rust：纸笔复习变量、类型与控制流（离线）",
+      "date": "2026-09-30",
+      "startTime": "15:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_rust",
+      "priority": "none",
+      "notes": "重读第 3-4 章（变量 / 类型 / 函数 / 控制流 / 所有权）",
+      "icon": "settings",
+      "subtasks": [
+        {
+          "id": "sample_d7_4_sub_1",
+          "title": "在纸上写变量、函数与控制流示例代码",
+          "done": false
+        },
+        {
+          "id": "sample_d7_4_sub_2",
+          "title": "记录 3 个不确定能否编译通过的点，晚上上机验证",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d7_5",
+      "title": "数学：极限与导数综合练习（离线）",
+      "date": "2026-09-30",
+      "startTime": "17:20",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "纸笔做 20 题（极限 10 + 导数 10）",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d7_5_sub_1",
+          "title": "错题当场重做一遍，标注错因：公式记错 / 变形卡住 / 计算错",
+          "done": false
+        },
+        {
+          "id": "sample_d7_5_sub_2",
+          "title": "总结 3 个最常犯的计算错误",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d7_6",
+      "title": "英语听力 1 小时（离线音频）",
+      "date": "2026-09-30",
+      "startTime": "20:00",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "盲听做题 → 看原文核对 → 原文再听一遍",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d7_6_sub_1",
+          "title": "朗读原文 1 遍，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d7_6_sub_2",
+          "title": "用手机离线音频完成，不打开电脑",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d7_7",
+      "title": "Redis 入门（第 1/2 次，恢复供电后，累计 4 小时）",
+      "date": "2026-09-30",
+      "startTime": "21:10",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "安装并启动 Redis，掌握五大基本类型（String / List / Set / ZSet / ",
+      "icon": "layers",
+      "subtasks": [
+        {
+          "id": "sample_d7_7_sub_1",
+          "title": "理解过期策略与内存淘汰策略的基本概念",
+          "done": false
+        },
+        {
+          "id": "sample_d7_7_sub_2",
+          "title": "整理 redis-notes.md 第一版，记录与 Knowlira 可能的结合点",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d7_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-09-30",
+      "startTime": "23:20",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "确认 10.1 白天不使用电脑，检查英语音频与阅读材料是否已离线备好",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d7_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d7_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d8_1",
+      "title": "英语：阅读 + 翻译日常任务",
+      "date": "2026-10-01",
+      "startTime": "19:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "high",
+      "notes": "长文 1 篇：限时 15 分钟，练扫读定位",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d8_1_sub_1",
+          "title": "精读 1 篇：整理长难句 5 句",
+          "done": false
+        },
+        {
+          "id": "sample_d8_1_sub_2",
+          "title": "翻译 1 篇：英译汉，注意长句拆分",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d8_2",
+      "title": "英语听力 1 小时",
+      "date": "2026-10-01",
+      "startTime": "20:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听 → 看原文核对 → 原文再听一遍",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d8_2_sub_1",
+          "title": "朗读原文 1 遍并录音，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d8_2_sub_2",
+          "title": "国庆日不安排其他学习任务",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d8_3",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-10-01",
+      "startTime": "22:00",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "国庆节休息日：只登记英语完成度，不安排其他学习任务",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d8_3_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d8_3_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d9_1",
+      "title": "Spring 源码 · AOP 与代理机制（第 4/4 次，2 小时，累计 8 小时）",
+      "date": "2026-10-02",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "理解 AOP 的切面、连接点、切点、通知等核心概念",
+      "icon": "braces",
+      "subtasks": [
+        {
+          "id": "sample_d9_1_sub_1",
+          "title": "分析 Spring AOP 的 JDK 动态代理与 CGLIB 代理选择逻辑",
+          "done": false
+        },
+        {
+          "id": "sample_d9_1_sub_2",
+          "title": "自己写一个最小切面，打断点观察代理对象的创建与调用链",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d9_2",
+      "title": "计算机基础：软件工程与程序设计基础",
+      "date": "2026-10-02",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "软件生命周期、开发模型（瀑布 / 敏捷）与测试方法",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d9_2_sub_1",
+          "title": "数据结构与算法基础概念、伪代码与流程图",
+          "done": false
+        },
+        {
+          "id": "sample_d9_2_sub_2",
+          "title": "做课后题 20 道，重点记软件测试与维护的术语",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d9_3",
+      "title": "英语：1 长文 + 2 精读 + 翻译 1 篇",
+      "date": "2026-10-02",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文限时 13 分钟，练扫读定位",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d9_3_sub_1",
+          "title": "精读 2 篇：专攻虚拟语气与倒装句",
+          "done": false
+        },
+        {
+          "id": "sample_d9_3_sub_2",
+          "title": "翻译 1 篇：英译汉，注意长句拆分",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d9_4",
+      "title": "算法：队列应用题（本次最多 2 题）",
+      "date": "2026-10-02",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_algo",
+      "priority": "none",
+      "notes": "做 232 用栈实现队列、225 用队列实现栈，对比两种写法",
+      "icon": "code-xml",
+      "subtasks": [
+        {
+          "id": "sample_d9_4_sub_1",
+          "title": "每题写“思路 + 复杂度 + 踩坑”三行记录，卡住先用 AI 讨论",
+          "done": false
+        },
+        {
+          "id": "sample_d9_4_sub_2",
+          "title": "总结队列的典型用途：层序、缓冲、单调队列",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d9_5",
+      "title": "Redis 入门（第 2/2 次，累计 4 小时）",
+      "date": "2026-10-02",
+      "startTime": "15:40",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "持久化 RDB 与 AOF 的差异，理解过期与淘汰策略",
+      "icon": "layers",
+      "subtasks": [
+        {
+          "id": "sample_d9_5_sub_1",
+          "title": "给 Knowlira 做最小示例：登录验证码 + 接口限流（固定窗口）",
+          "done": false
+        },
+        {
+          "id": "sample_d9_5_sub_2",
+          "title": "做一次不加缓存与加缓存的耗时对比，补齐 redis-notes.md",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d9_6",
+      "title": "数学：最值与实际应用",
+      "date": "2026-10-02",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "闭区间最值求法（含端点比较）",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d9_6_sub_1",
+          "title": "实际应用题 8 道：面积最大、成本最小、利润最大",
+          "done": false
+        },
+        {
+          "id": "sample_d9_6_sub_2",
+          "title": "归纳“设变量 → 建函数 → 求导 → 求最值 → 检验”五步模板",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d9_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-10-02",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d9_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d9_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d9_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-10-02",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "回顾今天完成度：哪些任务完成、哪些没完成、原因是什么",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d9_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d9_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d10_1",
+      "title": "RabbitMQ 入门（第 1/2 次，累计 4 小时）",
+      "date": "2026-10-03",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "安装启动 RabbitMQ，理解交换机、队列、绑定与四种交换机类型",
+      "icon": "network",
+      "subtasks": [
+        {
+          "id": "sample_d10_1_sub_1",
+          "title": "写生产者 / 消费者 demo（Java 或 Node）跑通一条消息",
+          "done": false
+        },
+        {
+          "id": "sample_d10_1_sub_2",
+          "title": "整理 mq-notes.md 第一版，记录与 Knowlira 异步任务的结合点",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d10_2",
+      "title": "计算机基础：考点梳理与错题重做",
+      "date": "2026-10-03",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "按章节梳理高频考点，整理一页速查清单",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d10_2_sub_1",
+          "title": "把前几天错题按章节归类并重做",
+          "done": false
+        },
+        {
+          "id": "sample_d10_2_sub_2",
+          "title": "针对错得最多的章节列复习顺序",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d10_3",
+      "title": "英语：1 长文 + 2 精读 + 翻译 1 篇",
+      "date": "2026-10-03",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文限时 13 分钟",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d10_3_sub_1",
+          "title": "精读 2 篇：复习前 6 天积累的长难句结构",
+          "done": false
+        },
+        {
+          "id": "sample_d10_3_sub_2",
+          "title": "翻译 1 篇：汉译英，限时 20 分钟",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d10_4",
+      "title": "Rust：struct 定义与实例化",
+      "date": "2026-10-03",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_rust",
+      "priority": "none",
+      "notes": "结构体定义、实例化、字段初始化简写与更新语法（..）",
+      "icon": "settings",
+      "subtasks": [
+        {
+          "id": "sample_d10_4_sub_1",
+          "title": "元组结构体与单元结构体",
+          "done": false
+        },
+        {
+          "id": "sample_d10_4_sub_2",
+          "title": "为结构体加 #[derive(Debug)]，用 {:?} 与 {:#?} 打印",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d10_5",
+      "title": "Knowlira 商业计划（第 1/2 次，累计 4 小时）",
+      "date": "2026-10-03",
+      "startTime": "15:40",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "梳理用户与目标场景：谁在用、解决什么问题、为什么现在需要",
+      "icon": "target",
+      "subtasks": [
+        {
+          "id": "sample_d10_5_sub_1",
+          "title": "写价值主张与产品边界，明确不做哪些功能",
+          "done": false
+        },
+        {
+          "id": "sample_d10_5_sub_2",
+          "title": "做竞品分析：列出 3 个竞品的功能、定价与差异点",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d10_6",
+      "title": "数学：不定积分（换元与分部）",
+      "date": "2026-10-03",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "基本积分公式表默写一遍",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d10_6_sub_1",
+          "title": "第一类 / 第二类换元积分法各 8 题",
+          "done": false
+        },
+        {
+          "id": "sample_d10_6_sub_2",
+          "title": "分部积分法 8 题，记住“反对幂指三”口诀",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d10_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-10-03",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d10_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d10_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d10_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-10-03",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "回顾今天完成度：哪些任务完成、哪些没完成、原因是什么",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d10_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d10_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d11_1",
+      "title": "Knowlira 商业计划（第 2/2 次，累计 4 小时）",
+      "date": "2026-10-04",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "设计商业模式与收费方案：免费额度、订阅或按量计费",
+      "icon": "target",
+      "subtasks": [
+        {
+          "id": "sample_d11_1_sub_1",
+          "title": "做成本与收入估算，写清关键假设",
+          "done": false
+        },
+        {
+          "id": "sample_d11_1_sub_2",
+          "title": "排出里程碑与验证顺序：先验证什么、失败就调整什么",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d11_2",
+      "title": "计算机基础：重点章节回顾与错题清零",
+      "date": "2026-10-04",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "把之前错题全部重做一遍",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d11_2_sub_1",
+          "title": "对高频考点（数制、网络、数据库）做快速口头回顾",
+          "done": false
+        },
+        {
+          "id": "sample_d11_2_sub_2",
+          "title": "更新考点清单，删除已掌握的条目",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d11_3",
+      "title": "英语：1 长文 + 2 精读 + 翻译 1 篇",
+      "date": "2026-10-04",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "长文限时 12 分钟，练扫读与定位",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d11_3_sub_1",
+          "title": "精读 2 篇：挑最难的 2 篇二刷",
+          "done": false
+        },
+        {
+          "id": "sample_d11_3_sub_2",
+          "title": "翻译 1 篇：对照前 10 天的失分点自查",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d11_4",
+      "title": "算法：链表 + 队列综合练习（本次最多 2 题）",
+      "date": "2026-10-04",
+      "startTime": "14:00",
+      "durationMinutes": 90,
+      "categoryId": "cat_algo",
+      "priority": "high",
+      "notes": "做 2 题：链表 1 题 + 队列 1 题",
+      "icon": "code-xml",
+      "subtasks": [
+        {
+          "id": "sample_d11_4_sub_1",
+          "title": "做完对照题解，记录“差在哪一步”",
+          "done": false
+        },
+        {
+          "id": "sample_d11_4_sub_2",
+          "title": "整理链表 / 队列“模板代码 + 易错点”速查表",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d11_5",
+      "title": "数学：定积分与牛顿-莱布尼茨公式",
+      "date": "2026-10-04",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "定积分定义与几何意义（有向面积）",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d11_5_sub_1",
+          "title": "牛顿-莱布尼茨公式与变限积分求导",
+          "done": false
+        },
+        {
+          "id": "sample_d11_5_sub_2",
+          "title": "计算 20 题（含对称区间奇偶性简化）",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d11_6",
+      "title": "RabbitMQ 入门（第 2/2 次，累计 4 小时）",
+      "date": "2026-10-04",
+      "startTime": "15:40",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "理解消息确认、持久化与死信队列",
+      "icon": "network",
+      "subtasks": [
+        {
+          "id": "sample_d11_6_sub_1",
+          "title": "设计 Knowlira 异步消息流：文件转换任务入队 → 消费者转换 → 回调通知",
+          "done": false
+        },
+        {
+          "id": "sample_d11_6_sub_2",
+          "title": "补齐 mq-notes.md，画出消息流设计图",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d11_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-10-04",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d11_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d11_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d11_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-10-04",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "回顾今天完成度：哪些任务完成、哪些没完成、原因是什么",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d11_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d11_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d12_1",
+      "title": "1.1 商业系统 · 会员功能",
+      "date": "2026-10-05",
+      "startTime": "07:30",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "会员等级与权益模型（免费 / 月付 / 年付），权益如何被业务代码校验",
+      "icon": "users",
+      "subtasks": [
+        {
+          "id": "sample_d12_1_sub_1",
+          "title": "写权益校验中间件：未开通则拒绝或降级",
+          "done": false
+        },
+        {
+          "id": "sample_d12_1_sub_2",
+          "title": "打通会员列表与“开通 / 续费”按钮（先用模拟支付）",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 0,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d12_2",
+      "title": "计算机基础：重点章节总回顾",
+      "date": "2026-10-05",
+      "startTime": "09:40",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "按考点清单回顾薄弱章节，不安排模拟考试",
+      "icon": "cpu",
+      "subtasks": [
+        {
+          "id": "sample_d12_2_sub_1",
+          "title": "把仍不熟的知识点做成 10 条便签",
+          "done": false
+        },
+        {
+          "id": "sample_d12_2_sub_2",
+          "title": "写出下阶段复习顺序（先补哪两章）",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 1,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d12_3",
+      "title": "英语假期复盘：阅读 + 翻译综合练习",
+      "date": "2026-10-05",
+      "startTime": "11:20",
+      "durationMinutes": 90,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "阅读 1 长文 + 1 精读，按平时节奏完成",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d12_3_sub_1",
+          "title": "翻译 1 篇，对照前 10 天的失分点自查",
+          "done": false
+        },
+        {
+          "id": "sample_d12_3_sub_2",
+          "title": "统计 12 天进步：阅读用时、生词量、翻译失分点数量",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 2,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d12_4",
+      "title": "1.1 商业系统 · 订单核心流程",
+      "date": "2026-10-05",
+      "startTime": "14:00",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "high",
+      "notes": "订单表与状态机设计：待支付 → 已支付 → 已完成 / 已退款 / 已取消",
+      "icon": "shopping-cart",
+      "subtasks": [
+        {
+          "id": "sample_d12_4_sub_1",
+          "title": "下单接口：金额计算、库存或权益校验、订单号生成",
+          "done": false
+        },
+        {
+          "id": "sample_d12_4_sub_2",
+          "title": "支付回调模拟与幂等处理（同一回调重复到达只生效一次）",
+          "done": false
+        },
+        {
+          "id": "sample_d12_4_sub_3",
+          "title": "订单列表与业务页面联动，能看到状态流转",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 3,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d12_5",
+      "title": "12 天复盘与下阶段规划",
+      "date": "2026-10-05",
+      "startTime": "16:10",
+      "durationMinutes": 120,
+      "categoryId": "cat_app",
+      "priority": "none",
+      "notes": "四线完成度自评：文件服务 / MySQL + Spring 源码 / Redis + RabbitM",
+      "icon": "target",
+      "subtasks": [
+        {
+          "id": "sample_d12_5_sub_1",
+          "title": "列出未完成项与原因（时间不够 / 优先级调整 / 卡点未解）",
+          "done": false
+        },
+        {
+          "id": "sample_d12_5_sub_2",
+          "title": "排入 10.6 起的计划，输出《下一阶段路线》一页纸",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 4,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d12_6",
+      "title": "数学：一元微积分综合练习 + 错题归纳",
+      "date": "2026-10-05",
+      "startTime": "19:00",
+      "durationMinutes": 150,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "做综合练习（极限 / 导数 / 积分），不安排模拟考试",
+      "icon": "sigma",
+      "subtasks": [
+        {
+          "id": "sample_d12_6_sub_1",
+          "title": "错题按知识点归类，写出 5 条最容易踩的坑",
+          "done": false
+        },
+        {
+          "id": "sample_d12_6_sub_2",
+          "title": "把 12 天的公式卡片合订成一页速查表",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 5,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d12_7",
+      "title": "英语听力 1 小时",
+      "date": "2026-10-05",
+      "startTime": "21:40",
+      "durationMinutes": 60,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "听力 1 篇：盲听做题 → 看原文核对 → 原文再听一遍，标注听不出的连读与弱读",
+      "icon": "languages",
+      "subtasks": [
+        {
+          "id": "sample_d12_7_sub_1",
+          "title": "朗读原文 1 遍并录音，模仿语音语调，记录 3 个发音薄弱点",
+          "done": false
+        },
+        {
+          "id": "sample_d12_7_sub_2",
+          "title": "登记听力正确率与今日听力问题",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 6,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    },
+    {
+      "id": "sample_d12_8",
+      "title": "每日总结（30 分钟）",
+      "date": "2026-10-05",
+      "startTime": "22:50",
+      "durationMinutes": 30,
+      "categoryId": "cat_exam",
+      "priority": "none",
+      "notes": "12 天总复盘：统计学习时长与成果，整理文档、代码与笔记归档",
+      "icon": "list-checks",
+      "subtasks": [
+        {
+          "id": "sample_d12_8_sub_1",
+          "title": "把未完成项写进明日待办，最多保留 3 条",
+          "done": false
+        },
+        {
+          "id": "sample_d12_8_sub_2",
+          "title": "记录今天最大的收获或卡点，方便下一天调整",
+          "done": false
+        }
+      ],
+      "repeat": {
+        "type": "none"
+      },
+      "status": "pending",
+      "order": 7,
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z",
+      "source": "sample"
+    }
+  ],
+  "goals": [
+    {
+      "id": "goal_app",
+      "title": "计算机应用技术",
+      "description": "文件服务方案 / MySQL / Spring 源码 / Redis / RabbitMQ / Knowlira 商业计划",
+      "targetDate": "2026-10-05",
+      "progress": 0,
+      "status": "active",
+      "linkedTaskIds": [
+        "sample_d1_1",
+        "sample_d3_1",
+        "sample_d4_1",
+        "sample_d4_5",
+        "sample_d5_1",
+        "sample_d5_5",
+        "sample_d6_1",
+        "sample_d6_5",
+        "sample_d7_7",
+        "sample_d9_1",
+        "sample_d9_5",
+        "sample_d10_1",
+        "sample_d10_5",
+        "sample_d11_1",
+        "sample_d11_6",
+        "sample_d12_1",
+        "sample_d12_4",
+        "sample_d12_5"
+      ],
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "id": "goal_algo",
+      "title": "算法正式入门",
+      "description": "链表 & 队列 + LeetCode / 牛客对应题目（每次最多 2 题）",
+      "targetDate": "2026-10-05",
+      "progress": 0,
+      "status": "active",
+      "linkedTaskIds": [
+        "sample_d1_4",
+        "sample_d3_4",
+        "sample_d4_4",
+        "sample_d7_3",
+        "sample_d9_4",
+        "sample_d11_4"
+      ],
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "id": "goal_rust",
+      "title": "第二工作语言 Rust",
+      "description": "通用概念 / 所有权 / struct（每次 1.5-2 小时）",
+      "targetDate": "2026-10-05",
+      "progress": 0,
+      "status": "active",
+      "linkedTaskIds": [
+        "sample_d1_5",
+        "sample_d3_5",
+        "sample_d5_4",
+        "sample_d7_4",
+        "sample_d10_4"
+      ],
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "id": "goal_exam",
+      "title": "专转本准备",
+      "description": "英语四级 + 计算机基础理论 + 一元函数微积分 + 思政作业",
+      "targetDate": "2026-10-05",
+      "progress": 0,
+      "status": "active",
+      "linkedTaskIds": [
+        "sample_d1_2",
+        "sample_d1_3",
+        "sample_d1_6",
+        "sample_d1_7",
+        "sample_d1_8",
+        "sample_d2_1",
+        "sample_d2_2",
+        "sample_d2_3",
+        "sample_d2_4",
+        "sample_d3_2",
+        "sample_d3_3",
+        "sample_d3_6",
+        "sample_d3_7",
+        "sample_d3_8",
+        "sample_d4_2",
+        "sample_d4_3",
+        "sample_d4_6",
+        "sample_d4_7",
+        "sample_d4_8",
+        "sample_d5_2",
+        "sample_d5_3",
+        "sample_d5_6",
+        "sample_d5_7",
+        "sample_d5_8",
+        "sample_d6_2",
+        "sample_d6_3",
+        "sample_d6_4",
+        "sample_d6_6",
+        "sample_d6_7",
+        "sample_d6_8",
+        "sample_d7_1",
+        "sample_d7_2",
+        "sample_d7_5",
+        "sample_d7_6",
+        "sample_d7_8",
+        "sample_d8_1",
+        "sample_d8_2",
+        "sample_d8_3",
+        "sample_d9_2",
+        "sample_d9_3",
+        "sample_d9_6",
+        "sample_d9_7",
+        "sample_d9_8",
+        "sample_d10_2",
+        "sample_d10_3",
+        "sample_d10_6",
+        "sample_d10_7",
+        "sample_d10_8",
+        "sample_d11_2",
+        "sample_d11_3",
+        "sample_d11_5",
+        "sample_d11_7",
+        "sample_d11_8",
+        "sample_d12_2",
+        "sample_d12_3",
+        "sample_d12_6",
+        "sample_d12_7",
+        "sample_d12_8"
+      ],
+      "createdAt": "2026-09-23T00:00:00.000Z",
+      "updatedAt": "2026-09-23T00:00:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_app",
+      "name": "计算机应用技术",
+      "color": "#b8542f",
+      "icon": "monitor",
+      "order": 0
+    },
+    {
+      "id": "cat_algo",
+      "name": "算法正式入门",
+      "color": "#355070",
+      "icon": "code-xml",
+      "order": 1
+    },
+    {
+      "id": "cat_rust",
+      "name": "第二工作语言 Rust",
+      "color": "#3f6c51",
+      "icon": "settings",
+      "order": 2
+    },
+    {
+      "id": "cat_exam",
+      "name": "专转本准备",
+      "color": "#9a6b2f",
+      "icon": "graduation-cap",
+      "order": 3
+    }
+  ],
+  "settings": {
+    "theme": "system",
+    "language": "zh-CN",
+    "timeFormat": "24h",
+    "autoSave": true,
+    "launchAtStartup": false,
+    "closeToTray": true,
+    "notificationsEnabled": true
+  }
+}
